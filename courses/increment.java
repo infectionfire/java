@@ -13,7 +13,7 @@ Sample Output:
 
 import java.util.Scanner;
 
-class MyNumber {
+class increment {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt(), y = sc.nextInt();

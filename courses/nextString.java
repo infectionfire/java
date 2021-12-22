@@ -19,7 +19,7 @@ import java.util.Scanner;
 Пропускаем не всех
 */
 
-public class Solution {
+public class nextString {
     public static void main(String[] args) throws IOException {
         //scanner
         Scanner scanner = new Scanner(System.in);
