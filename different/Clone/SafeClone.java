@@ -1,3 +1,5 @@
+package Clone;
+
 public class SafeClone {
     private static void preparation(Student student) {
         try {

@@ -1,3 +1,5 @@
+package Clone;
+
 public class Student implements Cloneable{
     private int id;
     private String name;
@@ -43,7 +45,7 @@ public class Student implements Cloneable{
     }
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Student{");
+        final StringBuilder sb = new StringBuilder("Clone.Student{");
         sb.append("id=").append(id);
         sb.append(", name='").append(name).append('\'');
         sb.append(", yearOfStudy=").append(yearOfStudy);

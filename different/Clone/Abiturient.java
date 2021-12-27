@@ -1,3 +1,5 @@
+package Clone;
+
 import java.util.ArrayList;
 public class Abiturient implements Cloneable {
     private int id = 7;
@@ -22,7 +24,7 @@ public class Abiturient implements Cloneable {
     }
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Abiturient{");
+        final StringBuilder sb = new StringBuilder("Clone.Abiturient{");
         sb.append("id=").append(id);
         sb.append(", list=").append(list);
         sb.append('}');
